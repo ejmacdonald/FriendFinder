@@ -1,0 +1,30 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A compatibility-based \"FriendFinder\" application built with node and express servers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadicodes/FriendFinder.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "dating-app"
+  ],
+  "author": "Hadi Yousufi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadicodes/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/hadicodes/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
+}
