@@ -1,47 +1,6 @@
-.jumboheadline,
-p {
-    padding-top: 30px;
-    color: #FFFFFF;
-}
+/* home.html CSS*/
 
-.btn.btn-primary.btn-lg {
-    background: #6772e5;
-    border: #6772e5;
-    margin-left: 25px;
-}
-
-.masthead-brand {
-    text-align: left;
-}
-
-.intro-box {
-    height: 400px;
-    color: #FFFFFF;
-    background: #4776E6;
-    margin-top: 0px;
-    padding-top: 0px;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #4776E6, #8E54E9);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #4776E6, #8E54E9);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.credit-list,
-.icons {
-    font-size: 20px;
-    margin-bottom: 120px;
-}
-
-.cover-heading {
-    font-size: 65px;
-    padding-top: 60px;
-}
-
-.credit-heading {
-    margin-bottom: 250px;
-    font-size: 50px;
-}
+.masthead-brand {}
 
 .masthead-nav {
     font-family: 'Open Sans', sans-serif;
@@ -49,4 +8,70 @@ p {
 
 .lead {
     font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+}
+
+.cover-heading {
+    font-size: 65px;
+    padding-bottom: 30px;
+}
+
+.home-body {
+    height: 100%;
+    /*background-color: #333;
+*/
+    background: #4776E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4776E6, #8E54E9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4776E6, #8E54E9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main-survey {
+    color: #FFF;
+}
+
+
+/*Credits.html  CSS*/
+
+
+/*doesnt work*/
+
+.credit-body {
+    background: #9D50BB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #9D50BB, #6E48AA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #9D50BB, #6E48AA);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.credit-heading {
+    font-size: 51px;
+    padding-bottom: 220px;
+    margin: auto;
+}
+
+.credit-list {
+    font-size: 35px;
+    padding-bottom: 100px;
+}
+
+
+/*survey*/
+
+.survey-body {
+    background: #57ED4D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #57ED4D, #9356F4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #57ED4D, #9356F4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn.btn-primary.btn-lg.btn-block {
+    background: #FFB27D;
+    border: #F9E396;
+    color: #3B1195;
 }
