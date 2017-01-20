@@ -1,6 +1,7 @@
 /* home.html CSS*/
 
-.masthead-brand {}
+
+/*.masthead-brand {}*/
 
 .masthead-nav {
     font-family: 'Open Sans', sans-serif;
@@ -35,9 +36,6 @@
 
 /*Credits.html  CSS*/
 
-
-/*doesnt work*/
-
 .credit-body {
     background: #9D50BB;
     /* fallback for old browsers */
@@ -59,14 +57,18 @@
 }
 
 
-/*survey*/
+/*survey.html CSS*/
 
-.survey-body {
-    background: #57ED4D;
+.site-wrapper-inner .masthead {
+    width: 100;
+}
+
+.survey-body .site-wrapper-inner {
+    background: #4568DC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #57ED4D, #9356F4);
+    background: -webkit-linear-gradient(to left, #4568DC, #B06AB3);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #57ED4D, #9356F4);
+    background: linear-gradient(to left, #4568DC, #B06AB3);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
