@@ -60,6 +60,11 @@ select {
     color: #5D00BB;
 }
 
+.cover-survey {
+    font-size: 65px;
+    margin-top: 50px;
+}
+
 .site-wrapper-inner .masthead {
     width: 100;
 }
@@ -77,9 +82,14 @@ select {
 .modal-content {
     background: background: #ECE9E6;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #E1EDEA, #EEFAFD);
+    background: -webkit-linear-gradient(to left, #EAEEF1, #faf8ff);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #E1EDEA, #EEFAFD);
+    background: linear-gradient(to left, #EAEEF1, #faf8ff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #122A52;
+}
+
+.survey-body,
+.modal-open {
+    text-shadow: none;
 }
