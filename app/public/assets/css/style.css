@@ -37,7 +37,7 @@
 /*Credits.html  CSS*/
 
 .credit-body {
-    background: radial-gradient(circle farthest-corner at left top, #ffd08a 0, #ffa376 28%, #d26578 52%, #AA076B 79%, #241668 100%);
+    background: radial-gradient(circle farthest-corner at left top, #F4C789 0, #ffa376 28%, #d26578 52%, #AA076B 79%, #37217F 100%);
 }
 
 .credit-heading {
@@ -54,8 +54,10 @@
 
 /*survey.html CSS*/
 
+input,
 select {
-    color: black;
+    font-family: 'Roboto', sans-serif;
+    color: #5D00BB;
 }
 
 .site-wrapper-inner .masthead {
@@ -70,4 +72,14 @@ select {
     background: #FFB27D;
     border: #F9E396;
     color: #3B1195;
+}
+
+.modal-content {
+    background: background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E1EDEA, #EEFAFD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E1EDEA, #EEFAFD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #122A52;
 }
