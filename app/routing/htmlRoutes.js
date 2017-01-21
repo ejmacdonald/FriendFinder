@@ -1,7 +1,6 @@
-// ===============================================================================
 // DEPENDENCIES
-// We need to include the path package to get the correct file path for our html
-// ===============================================================================
+// Path package to get the correct file path for our html
+
 var path = require('path');
 
 
@@ -14,7 +13,8 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname + '/../public/survey.html'));
     });
 
-    app.get('/survey', function(req, res) {
+
+    app.get('/credits', function(req, res) {
         res.sendFile(path.join(__dirname + '/../public/credits.html'));
     });
 

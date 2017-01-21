@@ -37,12 +37,7 @@
 /*Credits.html  CSS*/
 
 .credit-body {
-    background: #9D50BB;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #9D50BB, #6E48AA);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #9D50BB, #6E48AA);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: radial-gradient(circle farthest-corner at left top, #ffd08a 0, #ffa376 28%, #d26578 52%, #AA076B 79%, #241668 100%);
 }
 
 .credit-heading {
@@ -64,12 +59,7 @@
 }
 
 .survey-body .site-wrapper-inner {
-    background: #4568DC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #4568DC, #B06AB3);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #4568DC, #B06AB3);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: radial-gradient(circle farthest-corner at right top, #ffd08a 0, #ffa376 28%, #d26578 52%, #AA076B 79%, #241668 100%);
 }
 
 .btn.btn-primary.btn-lg.btn-block {

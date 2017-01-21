@@ -1,12 +1,11 @@
-// ==============================================================================
-// EXPRESS CONFIGURATION
+// Dependencies
 var express = require("express");
-//bodyparser only for POST data
 var bodyParser = require("body-parser");
-// Tells node that we are creating an "express" server
 var app = express();
+var path = require("path");
 
-// Sets an initial port. 
+
+// Set initial port. 
 var PORT = process.env.PORT || 8080;
 
 // BodyParser makes it possible for our server to interpret data sent to it.
@@ -19,8 +18,15 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 
+// Points server to CSS and JS static route files
+app.use(express.static(path.join(__dirname + '/app/public')));
+
+
+
 require("./app/routing/apiRoutes.js")(app);
 require("./app/routing/htmlRoutes.js")(app);
+
+
 
 
 // LISTENER: "starts" our server and listens for an event
