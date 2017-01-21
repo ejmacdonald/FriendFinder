@@ -1,35 +1,32 @@
 # Friend Finder
-Friend Finder helps you
+Friend Finder helps you find a frend based on a survey that determines compatibility. This Node-based app uses Express.JS.
 
 ---
 
 ### Pre-requisites
 
 * Install Node.js. visit https://nodejs.org/en/ and download
-* Command Line Terminal in Unix or Command Prompt in Windows
 
 ### Technologies used
 
 *node.js
-*MySQL
+*Express.js
 
 
 ### Getting Started
+This app is made possible with the following npm packages:
+* express
+* body-parser
+* path
 
-This Bamazon app uses the node CLI in terminal and requires the following npm packages to be installed in the the working folder. 
+In order to connect to the FriendFinder app server, type the following in the command line:
 
-* inquirer
-* MySQL
-* console.table
+ node server.js
 
-In order to start using the Bamazon app, type the following in the command line:
+By visiting http://localhost:PORT (in this project, the PORT is either the one available in the Node environment or 8080), one is directed to this web app after connecting to the server.
 
- node bamazonCustomer.js
-
-This connects to the products table in the SQL database, and promts the user to answer 2 questions on which product they'd like to buy and in what quantity. Based on user input, the user is allowed or declined to purchase based on stock quantity and the changes are also updated in real-time to the backend Bamazon database.
-
-### Watch a Complete Demo Video
-* View a demo of the Bamazon app functionality here: [Bamazon](https://youtu.be/RCLDRf9I02o)
+### Heroku App Link
+* Go to the Heroku App for this repo: [FriendFinder](https://arcane-river-79461.herokuapp.com/)
 
 
 ###Built With
@@ -47,27 +44,3 @@ This project is opensourced for anyone who wishes to use it.
 ## Acknowledgments
 
 * NU Coding Boot Camp Staff
-* Google
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
