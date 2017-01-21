@@ -54,6 +54,10 @@
 
 /*survey.html CSS*/
 
+select {
+    color: black;
+}
+
 .site-wrapper-inner .masthead {
     width: 100;
 }
